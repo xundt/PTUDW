@@ -17,6 +17,8 @@ public partial class TblBlog
 
     public string? Image { get; set; }
 
+    public string? ImageTeacher { get; set; }
+
     public string? SeoTitle { get; set; }
 
     public string? SeoDescription { get; set; }
@@ -34,4 +36,6 @@ public partial class TblBlog
     public int? AccountId { get; set; }
 
     public bool? IsActive { get; set; }
+
+    public virtual ICollection<TblBlogComment> TblBlogComments { get; set; } = new List<TblBlogComment>();
 }

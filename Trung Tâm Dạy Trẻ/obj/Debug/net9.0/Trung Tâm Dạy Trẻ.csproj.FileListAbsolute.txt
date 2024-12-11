@@ -5361,3 +5361,4 @@ D:\Trung Tâm Dạy Trẻ\Trung Tâm Dạy Trẻ\Trung Tâm Dạy Trẻ\obj\Debu
 D:\Trung Tâm Dạy Trẻ\Trung Tâm Dạy Trẻ\Trung Tâm Dạy Trẻ\obj\Debug\net9.0\compressed\6ie1hs5j50-hohk1s2ml5.gz
 D:\Trung Tâm Dạy Trẻ\Trung Tâm Dạy Trẻ\Trung Tâm Dạy Trẻ\obj\Debug\net9.0\compressed\dmvyi3xql2-jo62mk3w6z.gz
 D:\Trung Tâm Dạy Trẻ\Trung Tâm Dạy Trẻ\Trung Tâm Dạy Trẻ\obj\Debug\net9.0\compressed\5sz868aisq-d3505e3jkm.gz
+D:\Trung Tâm Dạy Trẻ\Trung Tâm Dạy Trẻ\Trung Tâm Dạy Trẻ\obj\Debug\net9.0\Trung Tâm Dạy Trẻ.sourcelink.json

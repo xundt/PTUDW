@@ -22569,6 +22569,54 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\blog\\teacher1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\teacher1.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\blog\\teacher2.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\teacher2.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\blog\\teacher3.jpg",
+      "PackagePath": "staticwebassets\\image\\blog\\teacher3.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\course\\program-1.jpg",
+      "PackagePath": "staticwebassets\\image\\course\\program-1.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\course\\program-2.jpg",
+      "PackagePath": "staticwebassets\\image\\course\\program-2.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\course\\program-3.jpg",
+      "PackagePath": "staticwebassets\\image\\course\\program-3.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\course\\teacher-1.jpg",
+      "PackagePath": "staticwebassets\\image\\course\\teacher-1.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\course\\teacher-2.jpg",
+      "PackagePath": "staticwebassets\\image\\course\\teacher-2.jpg"
+    },
+    {
+      "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\course\\teacher-3.jpg",
+      "PackagePath": "staticwebassets\\image\\course\\teacher-3.jpg"
+    },
+    {
       "Id": "D:\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\Trung Tâm Dạy Trẻ\\wwwroot\\image\\event\\event-1.jpg",
       "PackagePath": "staticwebassets\\image\\event\\event-1.jpg"
     },

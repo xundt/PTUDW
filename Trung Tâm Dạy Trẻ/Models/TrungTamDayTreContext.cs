@@ -21,6 +21,8 @@ public partial class TrungTamDayTreContext : DbContext
 
     public virtual DbSet<TblBlog> TblBlogs { get; set; }
 
+    public virtual DbSet<TblBlogComment> TblBlogComments { get; set; }
+
     public virtual DbSet<TblClass> TblClasses { get; set; }
 
     public virtual DbSet<TblCourse> TblCourses { get; set; }
@@ -44,6 +46,7 @@ public partial class TrungTamDayTreContext : DbContext
     public virtual DbSet<TblTeacher> TblTeachers { get; set; }
 
     public virtual DbSet<TblTuition> TblTuitions { get; set; }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -90,6 +93,20 @@ public partial class TrungTamDayTreContext : DbContext
             entity.Property(e => e.AccountId).HasColumnName("AccountID");
         });
 
+        modelBuilder.Entity<TblBlogComment>(entity =>
+        {
+            entity.HasKey(e => e.CommentId);
+
+            entity.ToTable("TblBlogComment");
+
+            entity.Property(e => e.CommentId).HasColumnName("CommentID");
+            entity.Property(e => e.BlogId).HasColumnName("BlogID");
+
+            entity.HasOne(d => d.Blog).WithMany(p => p.TblBlogComments)
+                .HasForeignKey(d => d.BlogId)
+                .HasConstraintName("FK_TblBlogComment_TblBlog");
+        });
+
         modelBuilder.Entity<TblClass>(entity =>
         {
             entity.HasKey(e => e.ClassId);
@@ -115,7 +132,7 @@ public partial class TrungTamDayTreContext : DbContext
             entity.Property(e => e.CourseId).HasColumnName("CourseID");
             entity.Property(e => e.TeacherId).HasColumnName("TeacherID");
 
-            entity.HasOne(d => d.Teacher).WithMany(p => p.TblCourses)
+            entity.HasOne(d => d.TeacherNavigation).WithMany(p => p.TblCourses)
                 .HasForeignKey(d => d.TeacherId)
                 .HasConstraintName("FK_TblCourse_tblTeacher");
         });

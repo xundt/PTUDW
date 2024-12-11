@@ -25,6 +25,16 @@ public partial class TblCourse
 
     public int? MainContent { get; set; }
 
+    public int? Lessons { get; set; }
+
+    public int? TotalClassHour { get; set; }
+
+    public string? ImageTeacher { get; set; }
+
+    public string? Teacher { get; set; }
+
+    public string? Image { get; set; }
+
     public string? RegistrationRequirements { get; set; }
 
     public DateOnly? StartDate { get; set; }
@@ -37,5 +47,5 @@ public partial class TblCourse
 
     public virtual ICollection<TblCourseEvaluation> TblCourseEvaluations { get; set; } = new List<TblCourseEvaluation>();
 
-    public virtual TblTeacher? Teacher { get; set; }
+    public virtual TblTeacher? TeacherNavigation { get; set; }
 }
