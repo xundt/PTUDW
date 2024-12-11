@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Trung Tâm Dạy Trẻ.props" />
+</Project>

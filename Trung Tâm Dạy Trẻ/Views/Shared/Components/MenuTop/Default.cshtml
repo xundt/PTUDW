@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Trung_Tâm_Dạy_Trẻ.Models.TblMenu>
+
+@foreach (var item in Model)
+{
+    <div class="navbar-nav mx-auto">
+        <a href="@item.Alias" class="nav-item nav-link active">@item.Title</a>
+    </div>
+}
+
