@@ -35,7 +35,7 @@ public partial class TblBlog
 
     public int? AccountId { get; set; }
 
-    public bool? IsActive { get; set; }
+    public bool IsActive { get; set; }
 
     public virtual ICollection<TblBlogComment> TblBlogComments { get; set; } = new List<TblBlogComment>();
 }

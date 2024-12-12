@@ -58,6 +58,7 @@ namespace Trung_Tâm_Dạy_Trẻ.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+                tblBlog.Alias = Trung_Tâm_Dạy_Trẻ.Utilities.Function.TittleGenerationAlias(tblBlog.Title);
                 _context.Add(tblBlog);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -97,6 +98,17 @@ namespace Trung_Tâm_Dạy_Trẻ.Areas.Admin.Controllers
             {
                 try
                 {
+                    var originalBlog = await _context.TblBlogs.AsNoTracking().FirstOrDefaultAsync(m => m.BlogId == id);
+
+                    if (originalBlog == null)
+                    {
+                        return NotFound();
+                    }
+
+                    if (originalBlog.Title != tblBlog.Title)
+                    {
+                        tblBlog.Alias = Trung_Tâm_Dạy_Trẻ.Utilities.Function.TittleGenerationAlias(tblBlog.Title);
+                    }
                     _context.Update(tblBlog);
                     await _context.SaveChangesAsync();
                 }
