@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Trung Tâm Dạy Trẻ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccac7ac811638d032d52416bb1ef966e4d18ccee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99c5aba22160eefa7a0663002e7d006ad320749c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Trung Tâm Dạy Trẻ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Trung Tâm Dạy Trẻ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

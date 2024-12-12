@@ -32,6 +32,26 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Areas/Admin/Views/Menu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Areas/Admin/Views/Menu/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Areas/Admin/Views/Menu/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Areas/Admin/Views/Menu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Areas/Admin/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Trung Tâm Dạy Trẻ/Areas/Admin/Views/Shared/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
