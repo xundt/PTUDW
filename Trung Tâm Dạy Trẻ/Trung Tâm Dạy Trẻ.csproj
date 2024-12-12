@@ -22,10 +22,10 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
     <Folder Include="wwwroot\image\course\" />
     <Folder Include="wwwroot\image\blog\" />
     <Folder Include="wwwroot\image\teacher\" />
+    <Folder Include="wwwroot\files\" />
   </ItemGroup>
 
 </Project>
