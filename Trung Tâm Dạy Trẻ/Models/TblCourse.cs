@@ -41,7 +41,7 @@ public partial class TblCourse
 
     public DateOnly? EndDate { get; set; }
 
-    public bool? IsActive { get; set; }
+    public bool IsActive { get; set; }
 
     public virtual ICollection<TblCourseDetail> TblCourseDetails { get; set; } = new List<TblCourseDetail>();
 

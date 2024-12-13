@@ -36,7 +36,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <a asp-action="Create" class="btn btn-primary">Thêm mới</a>
+                            <a asp-action="Create" class="btn btn-primary rounded-pill">Thêm mới</a>
 
                             <div class="card-tools">
                                 <div class="input-group input-group-sm" style="width: 150px;">
@@ -53,7 +53,7 @@
 
                         <div class="card-body table-responsive p-0">
                             <table class="table table-bordered table-hover text-center">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th>STT</th>
                                         <th>Tiêu đề</th>
@@ -85,9 +85,15 @@
                                                 }
                                             </td>
                                             <td>
-                                                <a asp-action="Edit" asp-route-id="@item.MenuId" class="btn btn-primary">Sửa</a> |
-                                                <a asp-action="Details" asp-route-id="@item.MenuId" class="btn btn-info">Chi tiết</a> |
-                                                <a asp-action="Delete" asp-route-id="@item.MenuId" class="btn btn-danger">Xóa</a>
+                                                <a asp-action="Edit" asp-route-id="@item.MenuId" class="btn btn-warning btn-sm rounded-pill" title="Sửa">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </a>
+                                                <a asp-action="Details" asp-route-id="@item.MenuId" class="btn btn-primary btn-sm rounded-pill" title="Chi tiết">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <a asp-action="Delete" asp-route-id="@item.MenuId" class="btn btn-danger btn-sm rounded-pill" title="Xóa">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </a>
                                             </td>
                                         </tr>
                                     }

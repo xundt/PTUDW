@@ -5,134 +5,115 @@
     Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
 }
 
-<h1>Index</h1>
+<div class="content-wrapper">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Quản lý Khóa Học</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Simple Tables</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CourseName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CourseType)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AgeGroup)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Duration)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Tuition)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MaxStudents)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MainContent)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Lessons)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TotalClassHour)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImageTeacher)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Teacher)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Image)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RegistrationRequirements)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.StartDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EndDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsActive)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TeacherNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.CourseName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CourseType)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AgeGroup)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Duration)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Tuition)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MaxStudents)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MainContent)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Lessons)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalClassHour)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImageTeacher)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Teacher)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Image)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RegistrationRequirements)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.StartDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EndDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IsActive)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TeacherNavigation.TeacherId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CourseId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CourseId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CourseId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                </div>
+            </div>
+
+            <!-- /.Quản lý  -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <a asp-action="Create" class="btn btn-primary rounded-pill">Thêm mới</a>
+
+                            <div class="card-tools">
+                                <div class="input-group input-group-sm" style="width: 150px;">
+                                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-default">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body table-responsive p-0">
+                            <table class="table table-bordered table-hover text-center">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>STT</th>
+                                        <th>Tên khóa học</th>
+                                        <th>Mô Tả</th>
+                                        <th>Số Bài Học</th>
+                                        <th>Học Phí</th>
+                                        <th>Số lượng Học Sinh</th>
+                                        <th>Giáo Viên </th>
+                                        <th>Tổng Số Giờ Học </th>
+                                        <th>Ảnh </th>
+                                        <th>Hiện</th>
+                                        <th>Chức năng</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        int i = 1;
+                                    }
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@(i++)</td>
+                                            <td>@item.CourseName</td>
+                                            <td>@Html.Raw(item.Description)</td>
+                                            <td>@item.Lessons</td>
+                                            <td>@string.Format("{0:N0}", item.Tuition) đ</td>
+                                            <td>@item.MaxStudents</td>
+                                            <td>@item.Teacher</td>
+                                            <td>@item.TotalClassHour</td>
+                                            <td><img src="@item.Image" width="50" height="50" /></td>
+                                            <td>
+                                                @if (item.IsActive == true)
+                                                {
+                                                    <span class="badge badge-success">Hiện</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-danger">Ẩn</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                <a asp-action="Edit" asp-route-id="@item.CourseId" class="btn btn-warning btn-sm rounded-pill" title="Sửa">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </a>
+                                                <a asp-action="Details" asp-route-id="@item.CourseId" class="btn btn-primary btn-sm rounded-pill" title="Chi tiết">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <a asp-action="Delete" asp-route-id="@item.CourseId" class="btn btn-danger btn-sm rounded-pill" title="Xóa">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>

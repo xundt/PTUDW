@@ -11,7 +11,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Xóa sản phẩm</h1>
+                    <h1>Chi tiết menu</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
@@ -32,44 +32,48 @@
                     <!-- general form elements -->
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Xóa Menu</h3>
+                            <h3 class="card-title">Bạn chắc chắn muốn xóa menu này ?</h3>
                         </div>
                         <!-- /.card-header -->
                         <!-- form start -->
                         <form asp-action="Delete">
                             <div class="card-body">
                                 <div class="form-group">
-                                    <label asp-for="Title">Title: </label>
+                                    <label asp-for="Title">Tiêu đề: : </label>
                                     @Model?.Title
                                 </div>
 
                                 <div class="form-group">
-                                    <label asp-for="Description">Alias: </label>
+                                    <label asp-for="Alias">Alias: </label>
                                     @Model?.Alias
                                 </div>
 
                                 <div class="form-group">
-                                    <label asp-for="ParentId">Position:</label>
+                                    <label asp-for="Position">Cấp: </label>
                                     @Model?.Position
                                 </div>
 
-                                <div class="form-group form-check">
-                                    <label asp-for="IsActive">Hiện:</label>
-                                    @Model?.IsActive
+                                <div class="form-group">
+                                    <label asp-for="IsActive">Hiển Thị: </label>
+                                    @if (Model?.IsActive == true)
+                                    {
+                                        <i class="fas fa-check-circle text-success"></i> <span>Hiển thị</span>
+                                    }
+                                    else
+                                    {
+                                        <i class="fas fa-times-circle text-danger"></i> <span>Không hiển thị</span>
+                                    }
                                 </div>
 
                                 <div class="d-flex mt-3">
                                     <div class="form-group mr-2">
-                                        <button type="submit" class="btn btn-primary rounded">Xóa</button>
-
+                                        <button type="submit" class="btn btn-primary rounded-pill">Xóa</button>
                                     </div>
 
                                     <div class="form-group">
-                                        <a class="btn btn-danger rounded mr-3" asp-action="Index">Quay Lại</a>
+                                        <a type="type" class="btn btn-danger rounded-pill mr-3" asp-action="Index">Quay Lại</a>
                                     </div>
-
                                 </div>
-
                             </div>
                         </form>
                     </div>

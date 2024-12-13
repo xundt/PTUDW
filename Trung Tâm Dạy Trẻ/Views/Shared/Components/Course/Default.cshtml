@@ -6,7 +6,7 @@
         <div class="program-item rounded">
             <div class="program-img position-relative">
                 <div class="overflow-hidden img-border-radius">
-                    <img src="~/files/course/@item.Image" class="img-fluid w-100" alt="Image">
+                    <img src="@item.Image" class="img-fluid w-100" alt="Image">
                 </div>
                 <div class="text-center py-2 bg-primary text-white program-rate">@string.Format("{0:N0}", item.Tuition)đ</div>
             </div>
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="program-teacher d-flex align-items-center border-top border-primary bg-white px-4 py-3">
-                <img src="~/image/course/@item.ImageTeacher" class="img-fluid rounded-circle p-2 border border-primary bg-white" alt="Image" style="width: 70px; height: 70px;">
+                <img src="~/files/course/teacher-1.jpg" class="img-fluid rounded-circle p-2 border border-primary bg-white" alt="Image" style="width: 70px; height: 70px;">
                 <div class="ms-3">
                     <h6 class="mb-0 text-primary">@item.Teacher</h6>
                     <small>Arts Designer</small>

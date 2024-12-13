@@ -100,17 +100,7 @@ namespace Trung_Tâm_Dạy_Trẻ.Areas.Admin.Controllers
             {
                 try
                 {
-                    var originalMenu = await _context.TblMenus.AsNoTracking().FirstOrDefaultAsync(m => m.MenuId == id);
-
-                    if (originalMenu == null)
-                    {
-                        return NotFound();
-                    }
-
-                    if (originalMenu.Title != tblMenu.Title)
-                    {
-                        tblMenu.Alias = Trung_Tâm_Dạy_Trẻ.Utilities.Function.TittleGenerationAlias(tblMenu.Title);
-                    }
+                    tblMenu.Alias = Trung_Tâm_Dạy_Trẻ.Utilities.Function.TittleGenerationAlias(tblMenu.Title);
 
                     _context.Update(tblMenu);
                     await _context.SaveChangesAsync();

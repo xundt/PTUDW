@@ -27,7 +27,7 @@ public partial class TblEvent
 
     public double? Fee { get; set; }
 
-    public bool? IsActive { get; set; }
+    public bool IsActive { get; set; }
 
     public virtual ICollection<TblEventRegistration> TblEventRegistrations { get; set; } = new List<TblEventRegistration>();
 }
