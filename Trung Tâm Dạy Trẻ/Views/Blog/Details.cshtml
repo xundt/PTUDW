@@ -1,0 +1,26 @@
+﻿@using Trung_Tâm_Dạy_Trẻ.Models;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid py-5 about bg-light">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="">
+                    <img src="@Model.Image" class="img-fluid rounded" alt="Image from Database">
+                </div>
+            </div>
+            <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
+                <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Chi tiết bài viết</h4>
+                <h1 class="text-dark mb-4 display-5">@Model.Title</h1>
+                <p class="text-dark mb-4">
+                    @Html.Raw(Model.Detail)
+                </p>
+            
+            </div>
+        </div>
+    </div>
+</div>
+

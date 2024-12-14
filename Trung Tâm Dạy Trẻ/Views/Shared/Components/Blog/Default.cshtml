@@ -1,6 +1,7 @@
 ﻿@model IEnumerable<Trung_Tâm_Dạy_Trẻ.Models.TblBlog>
 
 @foreach(var item in Model) {
+    string sUrl = $"/blog/{item.Alias}-{item.BlogId}.html";
     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
         <div class="blog-item rounded-bottom">
             <div class="blog-img overflow-hidden position-relative img-border-radius">
@@ -12,7 +13,7 @@
             </div>
             <div class="blog-content d-flex align-items-center px-4 py-3 bg-light">
                 <div class="overflow-hidden rounded-circle rounded-top border border-primary">
-                    <img src="~/files/blog/@item.ImageTeacher" class="img-fluid rounded-circle p-2 rounded-top" alt="Image" style="width: 70px; height: 70px; border-style: dotted; border-color: var(--bs-primary) !important;">
+                    <img src="~/files/blog/teacher1.jpg" class="img-fluid rounded-circle p-2 rounded-top" alt="Image" style="width: 70px; height: 70px; border-style: dotted; border-color: var(--bs-primary) !important;">
                 </div>
                 <div class="ms-3">
                     <h6 class="text-primary">Mary Mordern</h6>
@@ -21,11 +22,11 @@
             </div>
             <div class="px-4 pb-4 bg-light rounded-bottom">
                 <div class="blog-text-inner">
-                    <a href="#" class="h4">@item.Title</a>
-                    <p class="mt-3 mb-4">@item.Description</p>
+                    <a href="@sUrl" class="h4">@item.Title</a>
+                    <p class="mt-3 mb-4">@Html.Raw(item.Detail)</p>
                 </div>
                 <div class="text-center">
-                    <a href="#" class="btn btn-primary text-white px-4 py-2 mb-3 btn-border-radius">View Details</a>
+                    <a href="@sUrl" class="btn btn-primary text-white px-4 py-2 mb-3 btn-border-radius">View Details</a>
                 </div>
             </div>
         </div>

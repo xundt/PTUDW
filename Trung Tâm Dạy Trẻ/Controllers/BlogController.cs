@@ -15,5 +15,24 @@ namespace Trung_Tâm_Dạy_Trẻ.Controllers
         {
             return View();
         }
+
+
+        [Route("/blog/{alias}-{id}.html")]
+        public async Task <IActionResult> Details(int? id)
+        {
+            if (id == null || _context.TblBlogs == null)
+            {
+                return NotFound();
+            }
+
+            var blogs = await _context.TblBlogs.FirstOrDefaultAsync(m => m.BlogId == id);
+
+            if (blogs == null)
+            {
+                return NotFound();
+            }
+
+            return View(blogs);
+        }
     }
 }

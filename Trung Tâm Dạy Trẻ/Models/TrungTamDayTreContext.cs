@@ -25,6 +25,8 @@ public partial class TrungTamDayTreContext : DbContext
 
     public virtual DbSet<TblClass> TblClasses { get; set; }
 
+    public virtual DbSet<TblContact> TblContacts { get; set; }
+
     public virtual DbSet<TblCourse> TblCourses { get; set; }
 
     public virtual DbSet<TblCourseDetail> TblCourseDetails { get; set; }
@@ -121,6 +123,17 @@ public partial class TrungTamDayTreContext : DbContext
             entity.HasOne(d => d.Teacher).WithMany(p => p.TblClasses)
                 .HasForeignKey(d => d.TeacherId)
                 .HasConstraintName("FK_TblClass_tblTeacher");
+        });
+
+        modelBuilder.Entity<TblContact>(entity =>
+        {
+            entity.HasKey(e => e.ContactId);
+
+            entity.ToTable("TblContact");
+
+            entity.Property(e => e.ContactId).HasColumnName("ContactID");
+            entity.Property(e => e.CreatedDate).HasColumnType("datetime");
+            entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
         });
 
         modelBuilder.Entity<TblCourse>(entity =>

@@ -56,13 +56,6 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label asp-for="ImageTeacher">Ảnh Giáo Viên:</label>
-                                    <div class="mt-2">
-                                        <img src="@Model?.ImageTeacher" alt="Ảnh Giáo Viên" class="img-fluid" style="max-width: 100px; height: auto;" />
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
                                     <label asp-for="Title">Mô Tả: </label>
                                     @Html.Raw(Model?.Detail)
                                 </div>
@@ -81,11 +74,11 @@
 
                                 <div class="d-flex mt-3">
                                     <div class="form-group mr-2">
-                                        <button type="submit" class="btn btn-primary rounded">Xóa</button>
+                                        <button type="submit" class="btn btn-primary rounded-pill">Xóa</button>
                                     </div>
 
                                     <div class="form-group">
-                                        <a type="type" class="btn btn-danger rounded mr-3" asp-action="Index">Quay Lại</a>
+                                        <a type="type" class="btn btn-danger rounded-pill mr-3" asp-action="Index">Quay Lại</a>
                                     </div>
                                 </div>
                             </div>

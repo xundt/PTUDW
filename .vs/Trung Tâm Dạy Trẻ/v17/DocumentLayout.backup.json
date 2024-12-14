@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|d:\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\areas\\admin\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|solutionrelative:trung t\u00E2m d\u1EA1y tr\u1EBB\\areas\\admin\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|d:\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|solutionrelative:trung t\u00E2m d\u1EA1y tr\u1EBB\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|d:\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\areas\\admin\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|solutionrelative:trung t\u00E2m d\u1EA1y tr\u1EBB\\areas\\admin\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|d:\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|solutionrelative:trung t\u00E2m d\u1EA1y tr\u1EBB\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|d:\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|solutionrelative:trung t\u00E2m d\u1EA1y tr\u1EBB\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|d:\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|solutionrelative:trung t\u00E2m d\u1EA1y tr\u1EBB\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|d:\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\areas\\admin\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|solutionrelative:trung t\u00E2m d\u1EA1y tr\u1EBB\\areas\\admin\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|d:\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\trung t\u00E2m d\u1EA1y tr\u1EBB\\areas\\admin\\views\\blog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28A65F72-4C76-4461-A621-B03FE687B013}|Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB.csproj|solutionrelative:trung t\u00E2m d\u1EA1y tr\u1EBB\\areas\\admin\\views\\blog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +54,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
-              "RelativeDocumentMoniker": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
-              "ToolTip": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
-              "RelativeToolTip": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAEEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T15:33:43.557Z",
+              "WhenOpened": "2024-12-14T03:20:12.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Controllers\\MenuController.cs",
-              "ToolTip": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Controllers\\MenuController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGsAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Controllers\\ContactController.cs",
+              "ToolTip": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T15:26:10.875Z",
+              "WhenOpened": "2024-12-14T03:19:19.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Views\\Blog\\Details.cshtml",
+              "RelativeDocumentMoniker": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Views\\Blog\\Details.cshtml",
+              "ToolTip": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Views\\Blog\\Details.cshtml",
+              "RelativeToolTip": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Views\\Blog\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T02:57:30.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Controllers\\BlogController.cs",
+              "ToolTip": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T02:56:42.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
+              "RelativeDocumentMoniker": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
+              "ToolTip": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
+              "RelativeToolTip": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T02:52:44.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Blog\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Blog\\Edit.cshtml",
+              "ToolTip": "D:\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Blog\\Edit.cshtml",
+              "RelativeToolTip": "Trung T\u00E2m D\u1EA1y Tr\u1EBB\\Areas\\Admin\\Views\\Blog\\Edit.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T02:46:49.674Z",
               "EditorCaption": ""
             }
           ]

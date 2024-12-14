@@ -19,7 +19,7 @@ public partial class TblTeacher
 
     public string? TeachingAssignment { get; set; }
 
-    public bool? IsActive { get; set; }
+    public bool IsActive { get; set; }
 
     public virtual ICollection<TblClass> TblClasses { get; set; } = new List<TblClass>();
 
