@@ -13,8 +13,6 @@ public partial class TblContact
 
     public string? Email { get; set; }
 
-    public string? Message { get; set; }
-
     public int? IsRead { get; set; }
 
     public DateTime? CreatedDate { get; set; }

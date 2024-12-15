@@ -17,6 +17,8 @@ public partial class TrungTamDayTreContext : DbContext
 
     public virtual DbSet<TblAccount> TblAccounts { get; set; }
 
+    public virtual DbSet<TblAdminMenu> TblAdminMenus { get; set; }
+
     public virtual DbSet<TblAttendance> TblAttendances { get; set; }
 
     public virtual DbSet<TblBlog> TblBlogs { get; set; }
@@ -49,7 +51,6 @@ public partial class TrungTamDayTreContext : DbContext
 
     public virtual DbSet<TblTuition> TblTuitions { get; set; }
 
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<TblAccount>(entity =>
@@ -64,6 +65,15 @@ public partial class TrungTamDayTreContext : DbContext
             entity.HasOne(d => d.Role).WithMany(p => p.TblAccounts)
                 .HasForeignKey(d => d.RoleId)
                 .HasConstraintName("FK_TblAccount_TblRole");
+        });
+
+        modelBuilder.Entity<TblAdminMenu>(entity =>
+        {
+            entity.HasKey(e => e.AdminMenuId);
+
+            entity.ToTable("tblAdminMenu");
+
+            entity.Property(e => e.AdminMenuId).HasColumnName("AdminMenuID");
         });
 
         modelBuilder.Entity<TblAttendance>(entity =>

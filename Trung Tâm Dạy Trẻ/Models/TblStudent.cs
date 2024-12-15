@@ -25,7 +25,7 @@ public partial class TblStudent
 
     public DateOnly? RegistrationDate { get; set; }
 
-    public bool? IsActive { get; set; }
+    public bool IsActive { get; set; }
 
     public virtual ICollection<TblAttendance> TblAttendances { get; set; } = new List<TblAttendance>();
 

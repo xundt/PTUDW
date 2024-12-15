@@ -50,6 +50,11 @@
                                     <input asp-for="Alias" class="form-control" readonly>
                                     <span asp-validation-for="Alias" class="text-danger"></span>
                                 </div>
+                                 <div class="form-group">
+                                    <label asp-for="Description">Mô tả</label>
+                                    <input asp-for="Description" class="form-control">
+                                    <span asp-validation-for="Description" class="text-danger"></span>
+                                </div>
 
                                 <div class="form-group">
                                     <label asp-for="Image" class="control-label">Ảnh Blog</label>
@@ -63,7 +68,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label asp-for="Detail">Mô tả</label>
+                                    <label asp-for="Detail">Chi tiết</label>
                                     <textarea asp-for="Detail" class="form-control"></textarea>
                                     <span asp-validation-for="Detail" class="text-danger"></span>
                                 </div>
